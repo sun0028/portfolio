@@ -36,7 +36,7 @@ export default function Navbar() {
           SS<span style={{ color: '#c9b99a' }}>./</span>
         </button>
 
-        {/* Desktop */}
+        
         <ul className="hidden md:flex gap-10 list-none">
           {links.map(link => (
             <li key={link}>
@@ -47,7 +47,7 @@ export default function Navbar() {
           ))}
         </ul>
 
-        {/* Mobile hamburger */}
+        
         <button
           className="md:hidden flex flex-col gap-1.5"
           onClick={() => setMenuOpen(!menuOpen)}
@@ -71,7 +71,7 @@ export default function Navbar() {
         </button>
       </motion.nav>
 
-      {/* Mobile menu */}
+      
       <AnimatePresence>
         {menuOpen && (
           <motion.div

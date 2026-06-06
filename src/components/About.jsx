@@ -116,7 +116,7 @@ export default function About() {
           </motion.a>
         </div>
 
-        {/* Right — Skills */}
+        
         <div className="md:w-1/2 grid grid-cols-2 gap-10">
           {skills.map((s, i) => (
             <SkillGroup key={s.group} {...s} delay={i * 0.08} />

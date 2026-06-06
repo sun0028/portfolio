@@ -46,11 +46,11 @@ export default function Hero() {
       id="hero"
       className="relative min-h-screen flex flex-col justify-center overflow-hidden"
     >
-      {/* Floating orbs */}
+      
       <div className="orb w-96 h-96 top-1/4 -left-32" style={{ background: '#c9b99a' }} />
       <div className="orb w-72 h-72 bottom-1/4 right-0" style={{ background: '#4a7fa5', opacity: 0.08 }} />
 
-      {/* Grid */}
+      
       <div
         className="absolute inset-0 pointer-events-none"
         style={{
@@ -64,7 +64,7 @@ export default function Hero() {
         style={{ y, opacity }}
         className="relative z-10 px-8 md:px-16 max-w-7xl mx-auto w-full pt-24"
       >
-        {/* Tag */}
+        
         <motion.div
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
@@ -84,7 +84,7 @@ export default function Hero() {
           </button>
         </motion.div>
 
-        {/* Name */}
+        
         <div className="overflow-hidden mb-4">
           <motion.h1
             initial={{ y: 120 }}
@@ -108,7 +108,7 @@ export default function Hero() {
           </motion.h1>
         </div>
 
-        {/* Bottom row */}
+        
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -155,7 +155,7 @@ export default function Hero() {
         </motion.div>
       </motion.div>
 
-      {/* Scroll indicator */}
+      
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

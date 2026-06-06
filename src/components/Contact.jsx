@@ -6,7 +6,7 @@ import emailjs from '@emailjs/browser'
 const EMAILJS_PUBLIC_KEY  = 'WKKW-ew85sFbuTp0e'
 const EMAILJS_SERVICE_ID  = 'service_1pn4gd6'
 const EMAILJS_TEMPLATE_ID = 'template_xj0763w'
-// ────────────────────────────────────────────────────────────────────────────
+
 
 const socials = [
   {
@@ -166,7 +166,7 @@ export default function Contact() {
           </div>
         </div>
 
-        {/* Right — Form */}
+        
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}

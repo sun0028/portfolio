@@ -46,7 +46,7 @@ export default function Cursor() {
 
   return (
     <>
-      {/* Dot */}
+      
       <motion.div
         className="fixed top-0 left-0 pointer-events-none z-[9999]"
         style={{ x: smoothX, y: smoothY, translateX: '-50%', translateY: '-50%' }}
@@ -63,7 +63,7 @@ export default function Cursor() {
         />
       </motion.div>
 
-      {/* Ring */}
+      
       <motion.div
         className="fixed top-0 left-0 pointer-events-none z-[9998]"
         style={{ x: ringSmoothX, y: ringSmoothY, translateX: '-50%', translateY: '-50%' }}

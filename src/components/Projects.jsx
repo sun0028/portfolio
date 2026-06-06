@@ -53,7 +53,7 @@ function ProjectItem({ project, index }) {
           </motion.span>
 
           <div>
-            {/* Title */}
+            
             <div className="overflow-hidden mb-1">
               <motion.h3
                 animate={{ y: hovered ? -2 : 0 }}
@@ -73,7 +73,7 @@ function ProjectItem({ project, index }) {
               </motion.h3>
             </div>
 
-            {/* Desc — expands on hover */}
+            
             <AnimatePresence>
               {hovered && (
                 <motion.p
@@ -89,7 +89,7 @@ function ProjectItem({ project, index }) {
               )}
             </AnimatePresence>
 
-            {/* Tags */}
+            
             <motion.div
               animate={{ opacity: hovered ? 1 : 0.4 }}
               className="flex flex-wrap gap-2 mt-3"
@@ -111,7 +111,7 @@ function ProjectItem({ project, index }) {
           </div>
         </div>
 
-        {/* Right: year + links */}
+        
         <div className="flex flex-col items-end gap-4 shrink-0">
           <span
             className="text-[11px] tracking-widest"

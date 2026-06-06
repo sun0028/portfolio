@@ -19,7 +19,7 @@ body {
 ::-webkit-scrollbar-track { background: #080c14; }
 ::-webkit-scrollbar-thumb { background: rgba(201,185,154,0.3); border-radius: 2px; }
 
-/* Grain overlay */
+
 .grain::before {
   content: '';
   position: fixed;
@@ -49,17 +49,17 @@ body {
   100% { transform: translate(0, 0); }
 }
 
-/* Magnetic button */
+
 .magnetic-wrap { display: inline-block; }
 
-/* Section divider */
+
 .divider {
   border: none;
   border-top: 1px solid rgba(255,255,255,0.06);
   margin: 0;
 }
 
-/* Nav link underline */
+
 .nav-link {
   position: relative;
   color: #6b7385;
@@ -80,10 +80,10 @@ body {
 .nav-link:hover { color: #e8dcc8; }
 .nav-link:hover::after { width: 100%; }
 
-/* Scramble text */
+
 .scramble { display: inline-block; }
 
-/* Project card hover line */
+
 .project-line {
   height: 1px;
   background: rgba(255,255,255,0.06);
@@ -92,7 +92,7 @@ body {
 }
 .project-item:hover .project-line { background: rgba(201,185,154,0.3); }
 
-/* Floating orbs */
+
 .orb {
   position: absolute;
   border-radius: 50%;
