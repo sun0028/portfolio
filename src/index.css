@@ -9,15 +9,15 @@
 html { scroll-behavior: smooth; }
 
 body {
-  background: #080c14;
-  color: #f0ebe3;
+  background: #1a0303;
+  color: #f0e0e0;
   font-family: 'DM Mono', monospace;
   overflow-x: hidden;
 }
 
 ::-webkit-scrollbar { width: 2px; }
-::-webkit-scrollbar-track { background: #080c14; }
-::-webkit-scrollbar-thumb { background: rgba(201,185,154,0.3); border-radius: 2px; }
+::-webkit-scrollbar-track { background: #1a0303; }
+::-webkit-scrollbar-thumb { background: rgba(180,30,30,0.5); border-radius: 2px; }
 
 
 .grain::before {
@@ -29,7 +29,7 @@ body {
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='1'/%3E%3C/svg%3E");
   background-repeat: repeat;
   background-size: 200px 200px;
-  opacity: 0.035;
+  opacity: 0.012;
   pointer-events: none;
   z-index: 999;
   animation: grain 0.5s steps(1) infinite;
@@ -62,7 +62,7 @@ body {
 
 .nav-link {
   position: relative;
-  color: #6b7385;
+  color: #7a3a3a;
   text-decoration: none;
   font-size: 11px;
   letter-spacing: 0.15em;
@@ -74,10 +74,10 @@ body {
   position: absolute;
   bottom: -2px; left: 0;
   width: 0; height: 1px;
-  background: #c9b99a;
+  background:  #cc2222;
   transition: width 0.3s ease;
 }
-.nav-link:hover { color: #e8dcc8; }
+.nav-link:hover { color: #f0e0e0; }
 .nav-link:hover::after { width: 100%; }
 
 
@@ -90,7 +90,7 @@ body {
   transform-origin: left;
   transition: background 0.3s;
 }
-.project-item:hover .project-line { background: rgba(201,185,154,0.3); }
+.project-item:hover .project-line { background: rgba(180,30,30,0.4); }
 
 
 .orb {

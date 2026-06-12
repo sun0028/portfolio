@@ -59,7 +59,7 @@ export default function Cursor() {
           }}
           transition={{ duration: 0.15 }}
           className="rounded-full bg-accent"
-          style={{ background: '#c9b99a' }}
+          style={{ background: '#cc2222' }}
         />
       </motion.div>
 
@@ -72,12 +72,12 @@ export default function Cursor() {
           animate={{
             width: hovered ? 48 : clicked ? 24 : 36,
             height: hovered ? 48 : clicked ? 24 : 36,
-            borderColor: hovered ? 'rgba(232,220,200,0.8)' : 'rgba(201,185,154,0.35)',
+            borderColor: hovered ? 'rgba(220,60,60,0.9)' : 'rgba(180,30,30,0.45)' ,
             scale: clicked ? 0.85 : 1,
           }}
           transition={{ duration: 0.2, ease: 'easeOut' }}
           className="rounded-full border"
-          style={{ border: '1px solid rgba(201,185,154,0.35)' }}
+          style={{ border: '1px solid rgba(180,30,30,0.45)' }}
         />
       </motion.div>
     </>
