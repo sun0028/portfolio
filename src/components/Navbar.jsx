@@ -50,17 +50,17 @@ export default function Navbar() {
           <motion.span
             animate={{ rotate: menuOpen ? 45 : 0, y: menuOpen ? 8 : 0 }}
             className="block w-6 h-px bg-accent"
-            style={{ background: '#c9b99a' }}
+            style={{ background: '#8a4040' }}
           />
           <motion.span
             animate={{ opacity: menuOpen ? 0 : 1 }}
             className="block w-4 h-px bg-accent"
-            style={{ background: '#c9b99a' }}
+            style={{ background: '#8a4040' }}
           />
           <motion.span
             animate={{ rotate: menuOpen ? -45 : 0, y: menuOpen ? -8 : 0 }}
             className="block w-6 h-px bg-accent"
-            style={{ background: '#c9b99a' }}
+            style={{ background: '#8a4040' }}
           />
         </button>
       </motion.nav>

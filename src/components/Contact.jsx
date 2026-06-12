@@ -37,7 +37,7 @@ function FormInput({ label, name, type = 'text', textarea = false, required = tr
       <label
         htmlFor={name}
         className="text-[10px] tracking-[0.18em] uppercase"
-        style={{ color: '#c9b99a', fontFamily: "'DM Mono', monospace" }}
+        style={{ color: '#8a4040', fontFamily: "'DM Mono', monospace" }}
       >
         {label}
       </label>
@@ -53,7 +53,7 @@ function FormInput({ label, name, type = 'text', textarea = false, required = tr
             color: '#f0ebe3',
             fontFamily: "'DM Mono', monospace",
           }}
-          onFocus={e => e.target.style.borderColor = 'rgba(201,185,154,0.4)'}
+          onFocus={e => e.target.style.borderColor = 'rgba(140,60,60,0.4)'}
           onBlur={e => e.target.style.borderColor = 'rgba(255,255,255,0.07)'}
         />
       ) : (
@@ -68,7 +68,7 @@ function FormInput({ label, name, type = 'text', textarea = false, required = tr
             color: '#f0ebe3',
             fontFamily: "'DM Mono', monospace",
           }}
-          onFocus={e => e.target.style.borderColor = 'rgba(201,185,154,0.4)'}
+          onFocus={e => e.target.style.borderColor = 'rgba(140,60,60,0.4)'}
           onBlur={e => e.target.style.borderColor = 'rgba(255,255,255,0.07)'}
         />
       )}
@@ -106,7 +106,7 @@ export default function Contact() {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             className="text-[10px] tracking-[0.2em] uppercase mb-4"
-            style={{ color: '#c9b99a', fontFamily: "'DM Mono', monospace" }}
+            style={{ color: '#8a4040', fontFamily: "'DM Mono', monospace" }}
           >
             Contact
           </motion.p>
@@ -117,10 +117,10 @@ export default function Contact() {
               animate={inView ? { y: 0 } : {}}
               transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
               className="text-[clamp(2.5rem,5vw,4rem)] leading-[1.05]"
-              style={{ fontFamily: "'DM Serif Display', serif" }}
+              style={{ fontFamily: "'DM Serif Display', serif", color: '#c49a8a' }}
             >
               Get in<br />
-              <span style={{ color: '#c9b99a', fontStyle: 'italic' }}>Touch.</span>
+              <span style={{ color: '#8a4040', fontStyle: 'italic' }}>Touch.</span>
             </motion.h2>
           </div>
 
@@ -156,7 +156,7 @@ export default function Contact() {
                   fontSize: '12px',
                   textDecoration: 'none',
                 }}
-                onMouseEnter={e => e.currentTarget.style.color = '#e8dcc8'}
+                onMouseEnter={e => e.currentTarget.style.color = '#c49a8a'}
                 onMouseLeave={e => e.currentTarget.style.color = '#6b7385'}
               >
                 {s.icon}
@@ -200,8 +200,8 @@ export default function Contact() {
               whileTap={{ scale: 0.97 }}
               className="self-start px-10 py-3.5 text-[11px] tracking-[0.14em] uppercase rounded-sm border transition-all disabled:opacity-50"
               style={{
-                borderColor: 'rgba(201,185,154,0.3)',
-                color: '#c9b99a',
+                borderColor: 'rgba(140,60,60,0.3)',
+                color: '#8a4040',
                 fontFamily: "'DM Mono', monospace",
               }}
             >

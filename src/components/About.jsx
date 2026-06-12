@@ -18,7 +18,7 @@ function SkillGroup({ group, items, delay }) {
     >
       <p
         className="text-[10px] tracking-[0.2em] uppercase mb-3"
-        style={{ color: '#c9b99a', fontFamily: "'DM Mono', monospace" }}
+        style={{ color: '#8a4040', fontFamily: "'DM Mono', monospace" }}
       >
         {group}
       </p>
@@ -26,7 +26,7 @@ function SkillGroup({ group, items, delay }) {
         {items.map(item => (
           <motion.li
             key={item}
-            whileHover={{ x: 6, color: '#e8dcc8' }}
+            whileHover={{ x: 6, color: '#c49a8a' }}
             transition={{ duration: 0.15 }}
             className="text-[12px] pb-1.5 border-b"
             style={{
@@ -59,7 +59,7 @@ export default function About() {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             className="text-[10px] tracking-[0.2em] uppercase mb-4"
-            style={{ color: '#c9b99a', fontFamily: "'DM Mono', monospace" }}
+            style={{ color: '#8a4040', fontFamily: "'DM Mono', monospace" }}
           >
             About
           </motion.p>
@@ -70,7 +70,7 @@ export default function About() {
               animate={inView ? { y: 0 } : {}}
               transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
               className="text-[clamp(2.5rem,5vw,4rem)] leading-[1.05]"
-              style={{ fontFamily: "'DM Serif Display', serif" }}
+              style={{ fontFamily: "'DM Serif Display', serif" ,  color: '#c49a8a' }}
             >
               Who I am
             </motion.h2>
@@ -78,9 +78,9 @@ export default function About() {
 
           <div className="space-y-5">
             {[
-              <>I'm a <span style={{ color: '#e8dcc8' }}>BCA student at GGSIPU</span> (graduating 2025) with hands-on experience building full-stack applications from scratch — database design to production deployment.</>,
-              <>My work spans <span style={{ color: '#e8dcc8' }}>Django REST APIs</span>, <span style={{ color: '#e8dcc8' }}>MERN stack</span> applications, and a production <span style={{ color: '#e8dcc8' }}>Flutter Android app</span> — all deployed and live. I'm comfortable owning the full lifecycle.</>,
-              <>Currently looking for <span style={{ color: '#e8dcc8' }}>junior full-stack or backend roles</span> where I can contribute to real products and keep growing fast.</>,
+              <>I'm a <span style={{ color: '#c49a8a' }}>BCA student at GGSIPU</span> (graduating 2025) with hands-on experience building full-stack applications from scratch — database design to production deployment.</>,
+              <>My work spans <span style={{ color: '#c49a8a' }}>Django REST APIs</span>, <span style={{ color: '#c49a8a' }}>MERN stack</span> applications, and a production <span style={{ color: '#c49a8a' }}>Flutter Android app</span> — all deployed and live. I'm comfortable owning the full lifecycle.</>,
+              <>Currently looking for <span style={{ color: '#c49a8a' }}>junior full-stack or backend roles</span> where I can contribute to real products and keep growing fast.</>,
             ].map((text, i) => (
               <motion.p
                 key={i}
@@ -107,8 +107,8 @@ export default function About() {
             whileHover={{ x: 6 }}
             className="inline-flex items-center gap-2 mt-10 text-[11px] tracking-[0.14em] uppercase border-b pb-1 transition-colors"
             style={{
-              color: '#c9b99a',
-              borderColor: 'rgba(201,185,154,0.3)',
+              color: '#8a4040',
+              borderColor: 'rgba(140,60,60,0.3)',
               fontFamily: "'DM Mono', monospace",
             }}
           >

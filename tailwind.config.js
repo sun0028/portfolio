@@ -10,8 +10,8 @@ export default {
       colors: {
         bg: '#080c14',
         bg2: '#0f1520',
-        accent: '#c9b99a',
-        accent2: '#e8dcc8',
+        accent: '#8a4040',
+        accent2: '#c49a8a',
         muted: '#6b7385',
       },
     },

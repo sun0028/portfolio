@@ -44,7 +44,7 @@ function ProjectItem({ project, index }) {
         <div className="flex gap-6 md:gap-10 items-start">
           {/* Number */}
           <motion.span
-            animate={{ color: hovered ? '#c9b99a' : '#2a2f3d' }}
+            animate={{ color: hovered ? '#8a4040' : '#2a2f3d' }}
             transition={{ duration: 0.2 }}
             className="text-[11px] tracking-widest pt-1 shrink-0"
             style={{ fontFamily: "'DM Mono', monospace" }}
@@ -59,14 +59,14 @@ function ProjectItem({ project, index }) {
                 animate={{ y: hovered ? -2 : 0 }}
                 transition={{ duration: 0.25 }}
                 className="text-[clamp(1.6rem,3.5vw,2.5rem)] leading-tight"
-                style={{ fontFamily: "'DM Serif Display', serif", color: '#f0ebe3' }}
+                style={{ fontFamily: "'DM Serif Display', serif",  color: '#c49a8a' }}
               >
                 {project.title}
                 <motion.span
                   animate={{ opacity: hovered ? 1 : 0, x: hovered ? 6 : 0 }}
                   transition={{ duration: 0.2 }}
                   className="text-[1.5rem] italic ml-3"
-                  style={{ color: '#c9b99a' }}
+                  style={{ color: '#8a4040' }}
                 >
                   {project.subtitle}
                 </motion.span>
@@ -99,8 +99,8 @@ function ProjectItem({ project, index }) {
                   key={tag}
                   className="text-[10px] tracking-[0.08em] border rounded-sm px-2.5 py-1"
                   style={{
-                    color: '#c9b99a',
-                    borderColor: 'rgba(201,185,154,0.18)',
+                    color: '#8a4040',
+                    borderColor: 'rgba(140,60,60,0.18)',
                     fontFamily: "'DM Mono', monospace",
                   }}
                 >
@@ -127,8 +127,8 @@ function ProjectItem({ project, index }) {
               whileHover={{ y: -2 }}
               className="text-[10px] tracking-[0.14em] uppercase border-b pb-0.5 transition-colors"
               style={{
-                color: hovered ? '#e8dcc8' : '#6b7385',
-                borderColor: hovered ? 'rgba(232,220,200,0.4)' : 'rgba(107,115,133,0.3)',
+                color: hovered ? '#c49a8a' : '#6b7385',
+                borderColor: hovered ? 'rgba(180,120,100,0.4)' : 'rgba(107,115,133,0.3)',
                 fontFamily: "'DM Mono', monospace",
               }}
             >
@@ -141,8 +141,8 @@ function ProjectItem({ project, index }) {
               whileHover={{ y: -2 }}
               className="text-[10px] tracking-[0.14em] uppercase border-b pb-0.5 transition-colors"
               style={{
-                color: hovered ? '#e8dcc8' : '#6b7385',
-                borderColor: hovered ? 'rgba(232,220,200,0.4)' : 'rgba(107,115,133,0.3)',
+                color: hovered ? '#c49a8a' : '#6b7385',
+                borderColor: hovered ? 'rgba(180,120,100,0.4)' : 'rgba(107,115,133,0.3)',
                 fontFamily: "'DM Mono', monospace",
               }}
             >
@@ -170,7 +170,7 @@ export default function Projects() {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             className="text-[10px] tracking-[0.2em] uppercase mb-4"
-            style={{ color: '#c9b99a', fontFamily: "'DM Mono', monospace" }}
+            style={{ color: '#8a4040', fontFamily: "'DM Mono', monospace" }}
           >
             Work
           </motion.p>
@@ -181,7 +181,7 @@ export default function Projects() {
               animate={inView ? { y: 0 } : {}}
               transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
               className="text-[clamp(2.5rem,5vw,4rem)] leading-[1.05]"
-              style={{ fontFamily: "'DM Serif Display', serif" }}
+              style={{ fontFamily: "'DM Serif Display', serif", color: '#c49a8a' }}
             >
               Selected Projects
             </motion.h2>

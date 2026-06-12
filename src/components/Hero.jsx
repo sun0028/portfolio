@@ -47,7 +47,7 @@ export default function Hero() {
       className="relative min-h-screen flex flex-col justify-center overflow-hidden"
     >
       
-      <div className="orb w-96 h-96 top-1/4 -left-32" style={{ background: '#c9b99a' }} />
+      <div className="orb w-96 h-96 top-1/4 -left-32" style={{ background: '#8a4040' }} />
       <div className="orb w-72 h-72 bottom-1/4 right-0" style={{ background: '#4a7fa5', opacity: 0.08 }} />
 
       
@@ -74,8 +74,8 @@ export default function Hero() {
             onMouseEnter={scrambleTag}
             className="inline-flex items-center gap-3 mb-10 text-[10px] tracking-[0.2em] font-mono border px-4 py-2 rounded-sm transition-colors"
             style={{
-              color: '#c9b99a',
-              borderColor: 'rgba(201,185,154,0.25)',
+              color: '#8a4040',
+              borderColor: 'rgba(140,60,60,0.25)',
               fontFamily: "'DM Mono', monospace",
             }}
           >
@@ -131,7 +131,7 @@ export default function Hero() {
               onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
               className="px-8 py-3.5 text-[11px] tracking-[0.14em] uppercase rounded-sm transition-all"
               style={{
-                background: '#c9b99a',
+                background: '#8a4040',
                 color: '#080c14',
                 fontFamily: "'DM Mono', monospace",
               }}
@@ -139,7 +139,7 @@ export default function Hero() {
               View Work
             </motion.button>
             <motion.button
-              whileHover={{ scale: 1.02, borderColor: 'rgba(201,185,154,0.5)' }}
+              whileHover={{ scale: 1.02, borderColor: 'rgba(140,60,60,0.5)' }}
               whileTap={{ scale: 0.97 }}
               onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
               className="px-8 py-3.5 text-[11px] tracking-[0.14em] uppercase rounded-sm border transition-all"
@@ -167,7 +167,7 @@ export default function Hero() {
           animate={{ y: [0, 6, 0] }}
           transition={{ repeat: Infinity, duration: 1.8, ease: 'easeInOut' }}
           className="w-px h-10"
-          style={{ background: 'linear-gradient(to bottom, rgba(201,185,154,0.5), transparent)' }}
+          style={{ background: 'linear-gradient(to bottom, rgba(140,60,60,0.5), transparent)' }}
         />
         SCROLL
       </motion.div>
