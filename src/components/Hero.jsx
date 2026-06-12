@@ -91,7 +91,7 @@ export default function Hero() {
             animate={{ y: 0 }}
             transition={{ delay: 0.5, duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
             className="text-[clamp(5rem,9vw,8rem)] leading-[0.9] tracking-tight"
-            style={{ fontFamily: "'DM Serif Display', serif", color: '#f0e0e0' }}
+            style={{ fontFamily: "'Georgia', serif", color: '#9c5757' }}
           >
             Sonali Saini.
           </motion.h1>
@@ -102,7 +102,7 @@ export default function Hero() {
     animate={{ y: 0 }}
     transition={{ delay: 0.65, duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
     className="text-[clamp(5rem,10vw,9rem)] leading-[0.9] tracking-tight italic"
-    style={{ fontFamily: "'DM Serif Display', serif", color: '#cc2222' }}
+    style={{ fontFamily: "'Georgia', serif", color: '#590101' }}
   >
     Saini.
   </motion.h1>
