@@ -90,8 +90,8 @@ export default function Hero() {
             initial={{ y: 120 }}
             animate={{ y: 0 }}
             transition={{ delay: 0.5, duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
-            className="text-[clamp(3.5rem,10vw,8.5rem)] leading-[0.9] tracking-tight"
-            style={{ fontFamily: "'DM Serif Display', serif", color: '#f0ebe3' }}
+            className="text-[clamp(2.5rem,6vw,5.5rem)]] leading-[0.9] tracking-tight"
+            style={{ fontFamily: "'DM Serif Display', serif", color: '#f0e0e0' }}
           >
             Sonali
           </motion.h1>
@@ -101,7 +101,7 @@ export default function Hero() {
             initial={{ y: 120 }}
             animate={{ y: 0 }}
             transition={{ delay: 0.65, duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
-            className="text-[clamp(3.5rem,10vw,8.5rem)] leading-[0.9] tracking-tight italic"
+            className="text-[clamp(2.5rem,6vw,5.5rem)]] leading-[0.9] tracking-tight italic"
             style={{ fontFamily: "'DM Serif Display', serif", color: '#c9b99a' }}
           >
             Saini.
@@ -161,7 +161,7 @@ export default function Hero() {
         animate={{ opacity: 1 }}
         transition={{ delay: 1.5 }}
         className="absolute bottom-10 left-8 md:left-16 flex items-center gap-3"
-        style={{ color: '#6b7385', fontFamily: "'DM Mono', monospace", fontSize: '10px', letterSpacing: '0.15em' }}
+        style={{ color: '#4a2020', fontFamily: "'DM Mono', monospace", fontSize: '10px', letterSpacing: '0.15em' }}
       >
         <motion.div
           animate={{ y: [0, 6, 0] }}

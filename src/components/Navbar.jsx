@@ -28,13 +28,7 @@ export default function Navbar() {
           scrolled ? 'backdrop-blur-xl bg-[#080c14]/80 border-b border-white/5' : ''
         }`}
       >
-        <button
-          onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-          className="font-display text-lg text-accent2 tracking-wide"
-          style={{ fontFamily: "'DM Serif Display', serif", color: '#e8dcc8' }}
-        >
-          SS<span style={{ color: '#c9b99a' }}>./</span>
-        </button>
+       
 
         
         <ul className="hidden md:flex gap-10 list-none">
