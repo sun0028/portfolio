@@ -91,22 +91,22 @@ export default function Hero() {
             animate={{ y: 0 }}
             transition={{ delay: 0.5, duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
             className="text-[clamp(5rem,9vw,8rem)] leading-[0.9] tracking-tight"
-            style={{ fontFamily: "'Georgia', serif", color: '#9c5757' }}
+            style={{ fontFamily: "'Times New Roman', serif", color: '#9c5757' }}
           >
             Sonali Saini.
           </motion.h1>
         </div>
-<div className="overflow-hidden mb-12">
+{/* <div className="overflow-hidden mb-12">
   <motion.h1
     initial={{ y: 120 }}
     animate={{ y: 0 }}
     transition={{ delay: 0.65, duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
     className="text-[clamp(5rem,10vw,9rem)] leading-[0.9] tracking-tight italic"
-    style={{ fontFamily: "'Georgia', serif", color: '#590101' }}
+    style={{ fontFamily: "'Times New Roman', serif", color: '#590101' }}
   >
     Saini.
   </motion.h1>
-</div>
+</div> */}
 
         
         <motion.div
