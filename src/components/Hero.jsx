@@ -62,7 +62,7 @@ export default function Hero() {
 
       <motion.div
         style={{ y, opacity }}
-        className="relative z-10 px-8 md:px-16 max-w-7xl mx-auto w-full pt-24"
+        className="relative z-10 px-8 md:px-16 max-w-7xl mx-auto w-full pt-40"
       >
         
         <motion.div
@@ -90,23 +90,23 @@ export default function Hero() {
             initial={{ y: 120 }}
             animate={{ y: 0 }}
             transition={{ delay: 0.5, duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
-            className="text-[clamp(2.5rem,6vw,5.5rem)]] leading-[0.9] tracking-tight"
+            className="text-[clamp(4rem,8vw,7rem)]] leading-[0.9] tracking-tight"
             style={{ fontFamily: "'DM Serif Display', serif", color: '#f0e0e0' }}
           >
-            Sonali
+            Sonali Saini.
           </motion.h1>
         </div>
-        <div className="overflow-hidden mb-12">
+      { /*  <div className="overflow-hidden mb-12">
           <motion.h1
             initial={{ y: 120 }}
             animate={{ y: 0 }}
             transition={{ delay: 0.65, duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
-            className="text-[clamp(2.5rem,6vw,5.5rem)]] leading-[0.9] tracking-tight italic"
+            className="text-[clamp(4rem,8vw,7rem)]] leading-[0.9] tracking-tight italic"
             style={{ fontFamily: "'DM Serif Display', serif", color: '#c9b99a' }}
           >
             Saini.
           </motion.h1>
-        </div>
+        </div> */}
 
         
         <motion.div
