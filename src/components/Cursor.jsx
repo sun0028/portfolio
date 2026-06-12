@@ -59,7 +59,7 @@ export default function Cursor() {
           }}
           transition={{ duration: 0.15 }}
           className="rounded-full bg-accent"
-          style={{ background: '#990606' }}
+          style={{ background: '#170202' }}
         />
       </motion.div>
 
