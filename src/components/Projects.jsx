@@ -165,15 +165,7 @@ export default function Projects() {
 
       <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-16">
         <div>
-          <motion.p
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            className="text-[10px] tracking-[0.2em] uppercase mb-4"
-            style={{ color: '#8a4040', fontFamily: "'DM Mono', monospace" }}
-          >
-            Work
-          </motion.p>
+         
 
           <div ref={ref} className="overflow-hidden">
             <motion.h2

@@ -96,7 +96,7 @@ export default function About() {
             ))}
           </div>
 
-          <motion.a
+      { /*   <motion.a
             href="https://github.com/sun0028"
             target="_blank"
             rel="noreferrer"
@@ -114,6 +114,7 @@ export default function About() {
           >
             github →
           </motion.a>
+          */}
 
 <motion.a
             href="https://www.linkedin.com/in/sonali-saini2801/"
