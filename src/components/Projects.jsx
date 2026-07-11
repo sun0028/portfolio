@@ -10,7 +10,7 @@ const projects = [
     tags: ['Django REST', 'Flutter', 'Dart', 'SQLite', 'JWT', 'PythonAnywhere'],
     live: 'https://sonali028.pythonanywhere.com/',
     github: 'https://github.com/sun0028/CrestHarbor',
-    year: '2024',
+    
   },
   {
     num: '02',
@@ -20,7 +20,7 @@ const projects = [
     tags: ['React', 'Node.js', 'Express', 'MongoDB', 'Redux', 'Chart.js', 'Tailwind'],
     live: 'https://etracker-lemon.vercel.app/',
     github: 'https://github.com/sun0028/Etracker',
-    year: '2025',
+   
   },
 ]
 
@@ -188,15 +188,7 @@ export default function Projects() {
           </div>
         </div>
 
-        <motion.p
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-          className="text-[11px] max-w-xs text-right hidden md:block"
-          style={{ color: '#6b7385', fontFamily: "'DM Mono', monospace", lineHeight: 1.8 }}
-        >
-          Hover each project to reveal details
-        </motion.p>
+       
       </div>
 
       <div>

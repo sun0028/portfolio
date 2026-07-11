@@ -78,7 +78,7 @@ export default function About() {
 
           <div className="space-y-5">
             {[
-              <>I'm a <span style={{ color: '#c49a8a' }}>BCA student at GGSIPU</span> (graduating 2025) with hands-on experience building full-stack applications from scratch — database design to production deployment.</>,
+              <>I'm a <span style={{ color: '#c49a8a' }}>BCA graduate from GGSIPU</span> with hands-on experience building full-stack applications from scratch — database design to production deployment.</>,
               <>My work spans <span style={{ color: '#c49a8a' }}>Django REST APIs</span>, <span style={{ color: '#c49a8a' }}>MERN stack</span> applications, and a production <span style={{ color: '#c49a8a' }}>Flutter Android app</span> — all deployed and live. I'm comfortable owning the full lifecycle.</>,
               <>Currently looking for <span style={{ color: '#c49a8a' }}>junior full-stack or backend roles</span> where I can contribute to real products and keep growing fast.</>,
             ].map((text, i) => (
@@ -112,8 +112,28 @@ export default function About() {
               fontFamily: "'DM Mono', monospace",
             }}
           >
-            github.com/sun0028 →
+            github →
           </motion.a>
+
+<motion.a
+            href="https://www.linkedin.com/in/sonali-saini2801/"
+            target="_blank"
+            rel="noreferrer"
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.4 }}
+            whileHover={{ x: 6 }}
+            className="inline-flex items-center gap-2 mt-10 text-[11px] tracking-[0.14em] uppercase border-b pb-1 transition-colors"
+            style={{
+              color: '#8a4040',
+              borderColor: 'rgba(140,60,60,0.3)',
+              fontFamily: "'DM Mono', monospace",
+            }}
+          >
+            Linkedin →
+          </motion.a>
+
         </div>
 
         
