@@ -167,7 +167,9 @@ export default function Projects() {
         <div>
          
 
-          <div ref={ref} className="overflow-hidden">
+          <div ref={ref} className="overflow-hidden  mb-1">
+           
+           
             <motion.h2
               initial={{ y: 80 }}
               animate={inView ? { y: 0 } : {}}
